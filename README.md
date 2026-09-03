@@ -124,7 +124,9 @@ For questions about the analysis, dashboards, or methodology, review the detaile
 
 ## License
 
-This project's license information is not specified. Contact the project owner for licensing details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
+
+**Summary**: You are free to use, modify, and distribute this project with minimal restrictions, as long as you include the original copyright notice.
 
 ## Credits
 
