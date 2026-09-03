@@ -1,0 +1,52 @@
+# Operating System Generated Files
+Thumbs.db
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Desktop.ini
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.vim/
+.sublime-project
+.sublime-workspace
+*.sublime-project
+*.sublime-workspace
+.code-workspace
+*.iml
+.classpath
+.project
+.pydevproject
+.settings/
+
+# Temporary Files
+*.tmp
+*.bak
+*.backup
+*.temp
+*.log
+*~
+*.cache
+
+# OS-specific directories
+.Trash/
+$RECYCLE.BIN/
+
+# Environment files (if added in future)
+.env
+.env.local
+.env.*.local
+
+# IDE-specific
+*.code-workspace
+.vscode-server/
+
+# Temporary editor backups
+**/._*
