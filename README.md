@@ -1,43 +1,21 @@
 # Global Retail Business Analysis
 
-**A comprehensive data analytics project analyzing global retail business performance, trends, and insights.**
+A Tableau business-intelligence project presenting retail performance through a packaged workbook, dashboard previews, and a supporting business-insights report.
 
-## Overview
+## Project Overview
 
-This project presents an in-depth analysis of global retail business metrics, performance indicators, and market trends. It combines interactive data visualization with detailed business insights to support decision-making in the retail sector.
+This project packages an interactive Tableau workbook alongside static dashboard previews and a PDF report. It is intended to support exploration of retail performance metrics and communicate business observations to stakeholders.
 
-## Project Contents
+## Repository Contents
 
-- **Dashboard Visualizations**: Interactive Tableau dashboards displaying key retail metrics
-- **Business Insights Report**: Comprehensive PDF analysis with findings and recommendations
-- **Tableau Workbook**: Complete interactive analytics workbook for exploration and custom analysis
-
-## Key Features
-
-- Interactive dashboards for retail performance metrics
-- Business insights and trend analysis
-- Visual representation of key performance indicators (KPIs)
-- Exportable reports and visualizations
-- Multi-dimensional data analysis capabilities
-
-## Technology Stack
-
-- **Tableau**: For data visualization and dashboard creation
-- **Business Intelligence**: Performance metrics and trend analysis
-- **Data Analytics**: Comprehensive business reporting
-
-## Project Structure
-
-```
-global-retail-business-analysis/
-├── README.md                                    # This file
-├── PROJECT_NOTES.md                             # Development notes and project details
-├── .gitignore                                   # Git ignore configuration
-├── Global_Retail.twbx                           # Tableau workbook (main interactive file)
-├── Global_Retail_Business_Insights.pdf          # Business insights report
-├── Dashboard 1.jpg                              # Dashboard visualization screenshot
-└── Dashboard 2.jpg                              # Dashboard visualization screenshot
-```
+| File | Description |
+|---|---|
+| `Global_Retail.twbx` | Packaged Tableau workbook |
+| `Dashboard 1.jpg` | Dashboard preview |
+| `Dashboard 2.jpg` | Dashboard preview |
+| `Global_Retail_Business_Insights.pdf` | Supporting business-insights report |
+| `PROJECT_NOTES.md` | Project inventory and maintainer notes |
+| `LICENSE` | MIT License |
 
 ## Dashboard Previews
 
@@ -47,91 +25,42 @@ global-retail-business-analysis/
 ### Dashboard 2
 ![Dashboard 2](Dashboard%202.jpg)
 
+## Technology
+
+- Tableau Desktop or Tableau Public
+- Packaged Tableau workbook (`.twbx`)
+- PDF reporting
+
+The project notes indicate that this repository is a Tableau deliverable and does not currently contain Python, R, or SQL source scripts. It is therefore presented as a BI/dashboard project rather than a code-based ETL pipeline.
+
 ## Getting Started
 
-### Prerequisites
+1. Install Tableau Desktop or Tableau Public.
+2. Clone or download this repository.
+3. Open `Global_Retail.twbx` in Tableau.
+4. Explore the available dashboards, filters, and visual interactions.
+5. Review `Global_Retail_Business_Insights.pdf` for the accompanying narrative.
 
-- Tableau Desktop or Tableau Public (free version available at https://public.tableau.com)
-- Adobe Reader or compatible PDF viewer
+## Analytical Method & Evidence
 
-### Viewing the Analysis
+Use the PDF report and workbook to document the actual:
 
-1. **Interactive Dashboards**: Open `Global_Retail.twbx` in Tableau to explore the interactive visualizations
-2. **Business Insights**: Review `Global_Retail_Business_Insights.pdf` for detailed analysis and findings
-3. **Dashboard Screenshots**: View the preview images to understand the dashboard layouts and visualizations
+- Business questions and KPI definitions.
+- Data source and licensing/provenance.
+- Time period and geographic scope.
+- Dimensions, measures, and calculations.
+- Verified observations and recommendations.
+- Limitations and interpretation caveats.
 
-## Data Analysis Approach
+Specific numerical findings are intentionally omitted until the report and workbook have been independently reviewed.
 
-This project follows a comprehensive business analytics methodology:
+## Limitations
 
-1. **Data Collection**: Aggregation of global retail performance metrics
-2. **Exploratory Analysis**: Identification of patterns, trends, and anomalies
-3. **Visualization**: Creation of interactive dashboards for stakeholder consumption
-4. **Insights Generation**: Development of actionable business recommendations
-5. **Reporting**: Comprehensive documentation of findings and conclusions
-
-## Usage
-
-### For Interactive Analysis
-- Open the Tableau workbook (.twbx) file in Tableau Desktop or Tableau Public
-- Filter and drill-down into specific dimensions
-- Export visualizations for reports and presentations
-
-### For Quick Reference
-- Review the PDF report for executive summaries and key findings
-- Use dashboard screenshots for quick visual reference in presentations
-
-## Key Insights
-
-The analysis covers:
-- Global retail performance metrics
-- Market trends and patterns
-- Comparative analysis across regions
-- Performance benchmarking
-- Business recommendations
-
-See `Global_Retail_Business_Insights.pdf` for complete findings and detailed analysis.
-
-## Tableau Workbook Details
-
-**File**: `Global_Retail.twbx`
-
-This packaged workbook includes:
-- All data sources embedded in the file
-- Multiple interactive dashboards
-- Custom calculations and aggregations
-- Filters and parameters for dynamic analysis
-- Publication-ready visualizations
-
-No additional data files required to view the workbook.
-
-## Project Status
-
-**Status**: Complete and ready for use
-
-The analysis is finalized with comprehensive dashboards and business insights. The Tableau workbook is fully interactive and self-contained with all necessary data.
-
-## Limitations & Considerations
-
-- Analysis reflects data available at the time of report generation
-- Regional variations may require localized interpretation
-- Historical data trends are based on available historical periods
-- Forecasts (if included) are based on historical patterns and current market conditions
-
-## Support & Questions
-
-For questions about the analysis, dashboards, or methodology, review the detailed business insights in the PDF report. The Tableau workbook allows for custom analysis and further exploration.
+- Interactive exploration requires Tableau.
+- Screenshots are static previews and do not replace the workbook.
+- The current project notes do not identify source data lineage in enough detail to reproduce upstream data preparation independently.
+- The internal `PROJECT_NOTES.md` contains stale statements about the presence of a license and review status; reconcile those notes with the current repository contents.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for full details.
-
-**Summary**: You are free to use, modify, and distribute this project with minimal restrictions, as long as you include the original copyright notice.
-
-## Credits
-
-**Project Owner**: Ahlad Novuduri
-
----
-
-*Last Updated: September 2026*
+The repository includes an MIT License. See [LICENSE](LICENSE) for the applicable terms.
